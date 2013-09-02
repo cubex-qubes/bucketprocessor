@@ -12,6 +12,7 @@ use Qubes\BucketProcessor\Events;
 /**
  * @index processing,hostname
  * @index processing,processed,randomKey
+ * @engine InnoDB
  */
 class BucketRange extends RecordMapper
 {
