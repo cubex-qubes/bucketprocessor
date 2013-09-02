@@ -63,7 +63,7 @@ class StatsReporter
     if($this->currentRange !== null)
     {
       $this->currentRange->processedItems += $processed;
-      $this->currentRange->totalItems += $processed;
+      $this->currentRange->totalItems += $total;
     }
   }
 
