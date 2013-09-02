@@ -9,6 +9,10 @@ use Cubex\Events\EventManager;
 use Cubex\Mapper\Database\RecordMapper;
 use Qubes\BucketProcessor\Events;
 
+/**
+ * @index processing,hostname
+ * @index processing,processed,randomKey
+ */
 class BucketRange extends RecordMapper
 {
   /**
