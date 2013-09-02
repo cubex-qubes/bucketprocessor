@@ -1,0 +1,20 @@
+{
+	"name":              "qubes/bucketprocessor",
+	"description":       "Cubex Bucket Processor",
+	"version":           "0.0.1",
+	"keywords":          ["bucket", "storage", "gcs", "s3", "cubex"],
+	"homepage":          "http://cubex.io/qubes/bucketprocessor",
+	"minimum-stability": "dev",
+	"license":           "BSD-3-Clause",
+	"require":           {
+		"php": ">=5.4.0",
+    "aws/aws-sdk-php": "2.3.0",
+    "cubex/cubex": "*"
+	},
+	"autoload":          {
+		"psr-0": {
+			"Qubes\\BucketProcessor\\": "src/",
+      "Tests\\": "src/"
+		}
+	}
+}
