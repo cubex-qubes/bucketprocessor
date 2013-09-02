@@ -6,6 +6,7 @@ use Cubex\Cli\CliArgument;
 use Cubex\Cli\CliCommand;
 use Cubex\Cli\PidFile;
 use Cubex\Data\Validator\Validator;
+use Psr\Log\LogLevel;
 use Qubes\BucketProcessor\Mappers\BucketRange;
 
 /**
@@ -17,6 +18,7 @@ abstract class BucketProcessorTask extends CliCommand
   protected $_instanceName = "";
   protected $_rangeProcessor = null;
   private $_displayReport = true;
+  protected $_defaultLogLevel = LogLevel::INFO;
 
   /**
    * Get the name of the storage service to use
