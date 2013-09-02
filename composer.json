@@ -13,8 +13,7 @@
 	},
 	"autoload":          {
 		"psr-0": {
-			"Qubes\\BucketProcessor\\": "src/",
-      "Tests\\": "src/"
+			"Qubes\\BucketProcessor\\": "src/"
 		}
 	}
 }
