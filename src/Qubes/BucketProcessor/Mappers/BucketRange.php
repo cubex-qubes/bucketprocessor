@@ -80,7 +80,7 @@ class BucketRange extends RecordMapper
 
   private static $_overrideTableName = 'bucket_ranges';
 
-  public static function setTableName($tableName)
+  public static function setOverrideTableName($tableName)
   {
     self::$_overrideTableName = $tableName;
   }

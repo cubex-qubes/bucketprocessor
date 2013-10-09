@@ -133,7 +133,7 @@ abstract class BucketProcessorTask extends CliCommand
       ScriptOptions::setDryRun(true);
     }
 
-    BucketRange::setTableName($this->_getRangesTableName());
+    BucketRange::setOverrideTableName($this->_getRangesTableName());
   }
 
   public function execute()
