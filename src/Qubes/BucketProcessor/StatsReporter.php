@@ -142,7 +142,6 @@ class StatsReporter
     $reportFile = $logsDir . DS . 'report.txt';
     file_put_contents($reportFile, $prettyReport);
 
-
     // Store the raw stats
     $rawStats = json_encode(
       [
@@ -193,7 +192,6 @@ class StatsReporter
     );
     Log::info("Last object: " . $lastObject);
   }
-
 
   private function _generatePrettyReport(
     BucketRange $currentRange, $now, $rangeStartTime, $rangeTotal,
